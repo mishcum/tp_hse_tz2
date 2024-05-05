@@ -6,9 +6,7 @@ jobs:
     name: Testing
     runs-on: ubuntu-latest
     steps:
-      - name: compile
-        run: |
-          mvn compile
+      
 
       - name: start
         run: |
