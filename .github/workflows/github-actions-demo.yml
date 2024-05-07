@@ -8,6 +8,6 @@ jobs:
     steps:
       - name: start
         run: |
-          mvn compile -e
+          mvn -f /Users/runner/work/tp_hse_tz2/tp_hse_tz/pom.xml compile -e
 
 
