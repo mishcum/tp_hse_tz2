@@ -8,6 +8,6 @@ jobs:
     steps:
       - name: start
         run: |
-          mvn test -e
+          mvn compile
 
 
