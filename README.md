@@ -1,3 +1,5 @@
+[![Maven CI](https://github.com/mishcum/tp_hse_tz2/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/mishcum/tp_hse_tz2/actions/workflows/maven.yml)
+
 # Техническое задание №2
 Данный репозиторий создан в рамках курса по предмету Технологии Програмированния ВШЭ БИ  
 Автор - Поплевин Михаил, группа 239
