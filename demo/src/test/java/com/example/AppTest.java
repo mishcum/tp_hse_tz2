@@ -15,7 +15,7 @@ public class AppTest {
     @Test
     public void Test_min() throws FileNotFoundException {
         App Test1 = new App("src/test/java/com/example/test1.txt");
-        assertEquals(new BigInteger("11"), Test1._min());
+        assertEquals(new BigInteger("1"), Test1._min());
         
     }
 
