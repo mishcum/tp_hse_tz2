@@ -47,6 +47,18 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
+          <dependencies>
+            <dependency>
+                <groupId>org.apache.maven.surefire</groupId>
+                <artifactId>surefire-junit4</artifactId>
+                <version>2.22.0</version>
+            </dependency>
+        </dependencies>
+        <configuration>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
@@ -73,3 +85,4 @@
     </pluginManagement>
   </build>
 </project>
+
