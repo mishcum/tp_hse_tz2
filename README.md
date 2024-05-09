@@ -60,11 +60,9 @@
 **test3.txt** - 1 000 чисел в диапозоне от 1 до 50.   
 **test4.txt** - 5 000 чисел в диапозоне от -100 до 100.   
 **test5.txt** - 1 000 000 чисел в диапозоне от - 10 000 до 10 000.     
-<image src="pictures/pic1.png"  width="250" height="550" alt="Время выполнения">  
+<image src="pictures/pic1.png"  width="150" height="400" alt="Время выполнения">
+<image src="pictures/pic2.png"  width="667" height="400" alt="Время выполнения">  
 
-
-
-<image src="file:/pictures/pi2.png" width="250" height="550" alt="Время выполнения">
 
 
   
