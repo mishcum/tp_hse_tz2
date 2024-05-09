@@ -31,7 +31,7 @@ jobs:
     - name: Send Telegram Message
       uses: actions/checkout@v2
       with:
-        token: "6798460403:AAHuTU9VjKd097co0dcfi6_TxP1NP4MCLGM"
-        to: "-4229573400"
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        to: ${{ secrets.TELEGRAM_CHAT_ID }}
         message: "New commit pushed to repository"
         
