@@ -36,5 +36,5 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_CHAT_ID }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: "New commit pushed to repository"
+        message: $mvn test
         
