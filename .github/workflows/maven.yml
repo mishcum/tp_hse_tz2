@@ -27,12 +27,12 @@ jobs:
       run: |
         cd demo
         mvn test
+        res=$(mvn test)
 
     - name: Edit config
       run: git config --global user.mail "m6453327@icloud.com" && git config --global user.name "Mikhail"
 
     - name: Send Telegram Message
-      run: res=$(mvn test)
       uses: appleboy/telegram-action@master
       with:
         to: ${{ secrets.TELEGRAM_CHAT_ID }}
